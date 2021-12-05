@@ -1,0 +1,635 @@
+<html>
+	<head>
+		<title>faculty</title>
+		<style type="text/css">
+			body{
+				margin:0;
+			} 
+			#mainarea{
+				width:1500px;
+				margin:0 auto;
+			} 
+				#first{
+					width:1500px;
+					height:150px;
+					background:orange;
+				} 
+					#toparea{
+						width:1200px;
+						height:150px;
+						margin:0 auto;
+					} 
+						#logoarea{
+							width:250px;
+							height:150px;
+							float:left;
+							background:pink;
+							margin:0 auto;
+						} 
+						#titlearea{
+							width:950px;
+							height:150px;
+							float:left;
+						} 
+				#second{
+					width:1500px;
+					height:55px;
+					background:green;
+					position:stcky;
+					margin:0 auto;
+				} 
+					#menuarea{
+						width:1200px;
+						height:50px;
+						margin:0 auto;
+						transition:all 0.2s;
+					} 
+						#menuarea a:hover{
+							transform:translateX(10px);
+						}
+						#menuarea ul{
+							list-style:none;
+							padding:0;
+							margin:0;
+						} 
+						#menuarea ul li{
+							float:left;
+						} 
+						#menuarea ul li a:link, #menuarea ul li a:visited{
+							text-decoration:none;
+							padding:17px 35px;
+							color:#fff;
+							display:block;
+							transition:all 0.2s;
+						} 
+						#menuarea ul li a:hover{
+							color:yellow;
+							background:linear-gradient(red, orange) ;
+						} 
+							#menuarea ul li ul{
+								text-decoration:none;
+								padding:0 10px;
+								color:#fff;
+								display:none;
+							} 
+							#menuarea ul li:hover ul{
+								display:block;
+								position:absolute;
+								background:rgba(0,108, 0,0.8);
+								width:236px;
+								z-index:100;
+							}
+								#menuarea ul li:hover ul li{
+									color:yellow;
+									/*background:red;*/
+									float:none;
+								} 
+				#third{
+					width:1500px;
+					height:1300px;
+					padding:0 0 20px 0;
+					/*background:linear-gradient( #55acef, skyblue, #55acef);*/
+					background:linear-gradient(#f4f8fb,grey);
+				}  
+					#a0{
+						width:1500px;
+						height:100px;
+						background:#0d0d51;
+						color:#fff;
+						padding:10px 0 0 0;
+					} 
+					#faculty{
+						width:1160px;
+						height:1400px;
+						margin:0 auto;
+					} 
+						#a1{
+							width:1200px;
+							height:400px;
+						} 
+							#f1{
+								width:380px;
+								height:390px;
+								float:left;
+								padding:10px 10px 0 10px;
+							}  
+								#f11{
+									width:360px;
+									height:270px;
+									background:#008000;
+									padding:10px;
+									background:linear-gradient(yellow, orange) ;
+								} 
+								#f12{
+									width:380px;
+									height:100px;
+									overflow:auto;
+									background:linear-gradient(yellow, orange) ;
+								} 
+							#f2{
+								width:380px;
+								height:390px;
+								padding:10px 10px 0 10px;
+								float:left;
+							} 
+								#f21{
+									width:360px;
+									height:270px;
+									background:#f00;
+									padding:10px;
+									background:linear-gradient(yellow, orange) ;
+								} 
+								#f22{
+									width:380px;
+									height:100px;
+									overflow:auto;
+									background:linear-gradient(yellow, orange) ;
+								}
+							#f3{
+								width:380px;
+								height:390px;
+								padding:10px 10px 0 10px;
+								float:left;
+							} 
+								#f31{
+									width:360px;
+									height:270px;
+									background:#a47a0a;
+									padding:10px;
+									background:linear-gradient(yellow, orange) ;
+								} 
+								#f32{
+									width:380px;
+									height:100px;
+									overflow:auto;
+									background:linear-gradient(yellow, orange) ;
+								}
+						#a2{
+							width:1200px;
+							height:400px;
+						} 
+							#f4{
+								width:380px;
+								height:390px;
+								padding:10px 10px 0 10px;
+								float:left;
+							} 
+								#f41{
+									width:360px;
+									height:270px;
+									background:#085977;
+									padding:10px;
+									background:linear-gradient(yellow, orange) ;
+								} 
+								#f42{
+									width:380px;
+									height:100px;
+									overflow:auto;
+									background:linear-gradient(yellow, orange) ;
+								}
+							#f5{
+								width:380px;
+								height:390px;
+								padding:10px 10px 0 10px;
+								float:left; 
+							} 
+								#f51{
+									width:360px;
+									height:270px;
+									background:#522a0b;
+									padding:10px;
+									background:linear-gradient(yellow, orange) ;
+								} 
+								#f52{
+									width:380px;
+									height:100px;
+									overflow:auto;
+									background:linear-gradient(yellow, orange) ;
+								}
+							#f6{
+								width:380px;
+								height:390px;
+								padding:10px 10px 0 10px;
+								float:left;
+							} 
+								#f61{
+									width:360px;
+									height:270px;
+									background:#724c31;
+									padding:10px;
+									background:linear-gradient(yellow, orange) ;
+								} 
+								#f62{
+									width:380px;
+									height:100px;
+									overflow:auto;
+									background:linear-gradient(yellow, orange) ;
+								}
+						#a3{
+							width:1200px;
+							height:400px;
+						}
+							#f7{
+								width:380px;
+								height:390px;
+								padding:10px 10px 0 10px;
+								float:left;
+							} 
+								#f71{
+									width:360px;
+									height:270px;
+									background:#ffab91;
+									padding:10px;
+									background:linear-gradient(yellow, orange) ;
+								} 
+								#f72{
+									width:380px;
+									height:100px;
+									overflow:auto;
+									background:linear-gradient(yellow, orange) ;
+								}
+							#f8{
+								width:380px;
+								height:390px;
+								padding:10px 10px 0 10px;
+								float:left;
+							} 
+								#f81{
+									width:360px;
+									height:270px;
+									background:#7144a2;
+									padding:10px;
+									background:linear-gradient(yellow, orange) ;
+								} 
+								#f82{
+									width:380px;
+									height:100px;
+									overflow:auto;
+									background:linear-gradient(yellow, orange) ;
+								}
+							#f9{
+								width:380px;
+								height:390px;
+								padding:10px 10px 0 10px;
+								float:left;
+								overflow:auto; 
+							}
+								#f91{
+									width:360px;
+									height:270px;
+									background:#d26694;
+									padding:10px;
+									background:linear-gradient(yellow, orange) ;
+								} 
+								#f92{
+									width:380px;
+									height:100px;
+									overflow:auto;
+									background:linear-gradient(yellow, orange) ;
+								}
+				#fourth{
+					width:1500px;
+					height:450px;
+					background:linear-gradient(to top, #04365f , #262f42);
+				}  
+					#up{
+						width:1500px;
+						height:350px;
+					}  
+						#upi{
+							width:1200px;
+							height:350px;
+							margin:0 auto;
+						} 
+							#up1{
+								width:380px;
+								height: 347px;
+								float:left;
+								padding:10px;
+								border-bottom:solid 3px white;
+							} 
+							#up2{
+								width:380px;
+								height:347px;
+								float:left;
+								padding:10px;
+								border-bottom:solid 3px white;
+							}
+							#up3{
+								width:380px;
+								height:347px;
+								float:left;
+								padding:10px;
+								border-bottom:solid 3px white;
+							}
+								.top{
+									width:315px;
+									height:48px;
+									margin:0 15px;
+									padding:2px 0 0 30px;
+									border-left:5px solid pink;
+									font-weight:bold;
+									font-size:20px;
+									letter-spacing:5px;
+									word-spacing:10px;
+								} 
+								#bottom1{
+									width:290px;
+									height:297px;
+									margin:0 15px;
+									padding:0 30px; 
+									transition:all 0.2s;
+								} 
+									#bottom1 a:hover{
+										transform:translateX(10px);
+									} 
+								#bottom2{
+									width:290px;
+									height:297px;
+									margin:0 15px;
+									padding:30px; 
+								}
+								#bottom3{
+									width:290px;
+									height:297px;
+									margin:0 15px;
+									padding:30px; 
+								}
+									#bottom3 ul{
+										list-style:none;
+										padding:0;
+										margin:0;
+									} 
+										#bottom3 ul li a:link, #menuarea ul li a:visited{
+											text-decoration:none;
+											padding:17px 25px;
+											color:#fff;
+											display:block;
+										} 
+										 /*#bottom3 ul li a:hover{
+											color: rgb(4, 54, 95);
+											background:#fff;
+										}*/
+											#bottom3 ul li:first-child{
+												border-bottom:1px solid #fff;
+											} 
+											#bottom3 ul li:nth-child(2){
+												border-bottom:1px solid #fff;
+											} 
+											#bottom3 ul li:nth-child(3){
+												border-bottom:1px solid #fff;
+											} 
+										
+					#down{
+						width:1500px;
+						height:100px;
+					}
+						#idown{
+							width:1200px;
+							height:100px;
+							margin:0 auto;
+						} 
+							.left{
+								width:600px;
+								height:85px;
+								padding:15px 0 0 0;
+								float:left;
+								font-weight:bold;
+							} 
+				.g{
+					background:red;
+				} 
+				.r{
+					background:blue;
+				}
+				.h{
+					background:yellow;
+				}
+				.s{
+					background:green;
+				}
+				.a{
+					font-size:20px;
+					color:#55acef;
+					transition:all 0.2s;
+				} 
+					.a:hover{
+							transform:translateX(10px);
+					}
+				.b{
+					font-size:20px;
+					color:#D8F781;
+					font-weight:bold;
+				} 
+				#c{
+					font:#fff;
+					font-weight:bold;
+				} 
+				a{
+					text-decoration:none;
+					color:#fff;
+				} 
+				h2{
+					word-spacing:15px;
+					letter-spacing:5px;
+					color:#fff;
+				} 
+				h3{
+					word-spacing:6px;
+					letter-spacing:3px;
+					color:#fff;
+				}
+				h4{
+					letter-spacing:2px;
+					color:#fff;
+				}
+		</style>
+		<link rel="stylesheet" type="text/css" href="css/font-awesome.css"/>
+	</head>
+	<body>
+		<div id="mainarea" >
+			<div id="first">
+				<div id="toparea">
+					<div id="logoarea">
+						<img src="logo.jpeg" width="250px" height="150px">
+					</div>
+					<div id="titlearea">
+						<h1 align="center">HOGWARTS UNIVERSITY, SCOTLAND, BRITAIN</h1>
+						<h4 align="center"><font color="#000">Department of Witchcraft and Wizardary</font></h4>
+					</div>
+				</div>
+			</div>
+			<div id="second">
+				<div id="menuarea">
+					<ul>
+						<li><a href="index.html"><i class="fa fa-home"></i> HOME</a></li>
+						<li><a href="about.html"><i class="fa fa-address-card"></i> ABOUT US</a></li>
+						<li><a href="faculties.html"><i class="fa fa-graduation-cap"></i> FACULTIES </a></li>
+						<li><a href="contact.html"><i class="fa fa-phone"></i> CONTACT US</a></li>
+						<li><a href="#"><i class="fa fa-university"></i> SCHOOL STUFFS <i class="fa fa-caret-down"></i></a>
+							<ul>
+								<li><a href="outfits.html"><i class="fa fa-shopping-bag"></i> OUTFITS</a></li>
+								<li><a href="library.html"><i class="fa fa-university"></i> LIBRARY</a></li>
+								<li><a href="wands.html"><i class="fa fa-magic"></i> WANDS</a></li>
+							<ul>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div id="third">
+				<div id="a0">
+					<h2 align="center">FACULTIES</h2>
+					<h4 align="center">HOGWARTS UNIVERSITY</h4>
+				</div>
+				<div id="faculty">
+					<div id="a1">
+						<div id="f1">
+							<div id="f11">
+								<img src="f1.jpg" width="360px" height="270px">
+							</div>
+							<div id="f12">
+								<p><center><b><u>MINERVA McGONAGALL</u></b></center></p>
+								<p>Dumbledore might be the most powerful teacher<br> in Hogwarts, but the most powerful brain belongs to Professor Minerva McGonagall of Transfiguration class. In fact, she's the "Hermione" of her generation, that is, the brightest witch/wizard of her age. Professor McGonagall is a treasure trove of knowledge</p>
+								<p>What's more, she's also an Animagus (people who can willingly transform into animals) herself. That makes her the perfect teacher of her subject. Meanwhile, her classes mostly take place in the classroom and are theory-heavy, but she still allows plenty of room for practical experimentation. Her brain combined with years of experience, a solid moral compass, and being the head of House Gryffindor makes her the best teacher in Hogwarts ever.</p>
+							</div>
+						</div>
+						<div id="f2">
+							<div id="f21">
+								<img src="f2.jpg" width="360px" height="270px">
+							</div>
+							<div id="f22">
+								<p><center><b><u>REMUS LUPIN</u></b></center></p>
+								<p>What do we have here? A modern Defense Against the Dark Arts teacher who was actually useful? That's worthy of a standing ovation. So let's clap our hands for Remus Lupin, one of the few (or only) Defense Against the Dark Arts teacher who knew what he was doing and was also not evil... at least when he's human. </p>
+								<p>While he has a tendency to bite his students' faces off during full moon, that can be excused. Professor Lupin taught Harry the most iconic spell in the Wizarding World: the Patronus charm (which can also double as a personal Sorting Hat). Moreover, his classes are simply exciting and involve plenty of interaction as well as practical stuff. </p>
+							</div>
+						</div>
+						<div id="f3">
+							<div id="f31">
+								<img src="f3.jpg" width="360px" height="270px">
+							</div>
+							<div id="f32">
+								<p><center><b><u>ALBUS DUMBLEDORE</u></b></center></p>
+								<p>Albus Dumbledore, the most powerful wizard in the modern Wizarding World was once but a humble professor at Hogwarts. He used to teach Defense Against the Dark Arts in Hogwarts back in the 1920s and was a notable wizard back then.</p>
+								<p>He was also one of the few who found a way to work against Gellert Grindlewald while still being a teacher. Even as a Headmaster, one can still learn a lot from Dumbledore. Harry, Snape, even the Ministry of Magic, or his own peers have picked up some valuable lessons one way or another from Dumbledore. Besides, who wouldn't want to learn from the world's most powerful wizard?</p>
+							</div>
+						</div>
+					</div>
+					<div id="a2">
+						<div id="f4">
+							<div id="f41">
+								<img src="f4.jpg" width="360px" height="270px">
+							</div>
+							<div id="f42">
+								<p><center><b><u>SEVERUS SNAPE</u></b></center></p>
+								<p>There he is, our favorite emo prince. For a long time, Professor Snape held the post of Potions Master before switching over to Defense Against the Dark Arts and being replaced by Slughorn. How'd he fare as Potions teacher? Not pleasant at all. Before Snape had been redeemed to kingdom come in Deathly Hallows or before Dolores Umbridge was introduced, we only knew Snape as the terror teacher.</p>
+								<p>He's the professor who gave disheartening paper deadlines and allowed nary a squeak in the classroom while he's talking. Anyone who tries to talk back or show any sign of deviance gets humiliated. Mostly it was Potter... and friends... or anyone from Gryffindor. While a lot can be learned from Professor Snape, it can be a tough experience.</p>
+							</div>
+						</div>
+						<div id="f5">
+							<div id="f51">
+								<img src="f5.jpg" width="360px" height="270px">
+							</div>
+							<div id="f52">
+								<p><center><b><u>BARTY CROUCH JR.</u></b></center></p>
+								<p>Here's when Hogwarts really should have been shut down. They unwittingly let an active Death Eater near their students and even let him teach the most important lesson for Hogwarts at the time. Despite that, Barty Crouch Jr. did surprisingly okay as Alastor Moody. He even taught lessons in advance.</p>
+								<p>He also introduced the three unforgivable curses and how to combat them to students in a time where Death Eaters were regrouping. Granted, that's probably the only lesson he knew how to teach, being a Death Eater and all. Another big surprise is the fact that almost no one was harmed by the dangerous Barty (apart from Neville's innocence or Malfoy's pride).</p>
+							</div>
+						</div>
+						<div id="f6">
+							<div id="f61">
+								<img src="f6.jpg" width="360px" height="270px">
+							</div>
+							<div id="f62">
+								<p><center><b><u>HORACE SLUGHORN</u></b></center></p>
+								<p>It seems nine out of ten Slytherins are often up to something disagreeable. Professor Horace Slughorn is no exception. He's a Slytherin through and through from childhood to seniority. While his favoritism is quite detrimental (he even has his own awkward club for it) to the learning process, there's no denying that he's brilliant.</p>
+								<p>In fact, Dumbledore holds tremendous respect for him. Even Voldemort wanted to recruit Slughorn in his Death Eater army for the brilliant old man's abilities and knowledge. Other than that, there aren't really many people who could replace a job that's perfect for the self-proclaimed Half-Blood Prince</p>
+							</div>
+						</div>
+					</div>
+					<div id="a3">
+						<div id="f7">
+							<div id ="f71" >
+								<img src="f7.jpg" width="360px" height="270px">
+							</div>
+							<div id="f72">
+								<p><center><b><u>ROLANDA HOOCH</u></b></center></p>
+								<p>P.E. might be a boring subject for some, but certain teachers can make it an enjoyable respite from all the theoretical information. Hogwarts' Professor Rolanda Hooch is one of those teachers. She doesn't appear much beyond the first film/book but her role was quite crucial in the students' development as Houses.</p>
+								<p>Anyway, she's the one responsible for introducing Quidditch or broom-riding to the first years. Funny enough, she actually left her class on the first day of school but that was Neville's fault. Anyway, had she not done that, Harry probably would not have discovered his hidden talent for Quidditch or flying. Apart from being a professor, she also sometimes acts as the Quidditch referee or umpire.</p>
+							</div>
+						</div>
+						<div id="f8">
+							<div id="f81">
+								<img src="f8.jpg" width="360px" height="270px">
+							</div>
+							<div id="f82">
+								<p><center><b><u>SYBILL TRELAWNEY</u></b></center></p>
+								<p>Sybill Trelawney can be quite nervous and a little eccentric at times, but she's someone who is passionate about her work. At times, it seems unclear whether Sybill is actually able to see into the future, or if she's just guessing and going off on a tangent.</p>
+								<p>But either way, she works hard to teach her students and there's no denying that she loves the job. This is something that a lot of other staff members lack, and that level of passion is something that makes her a great teacher.</p>
+							</div>
+						</div>
+						<div id="f9">
+							<div id="f91">
+								<img src="f9.jpg" width="360px" height="270px">
+							</div>
+							<div id="f92">
+								<p><center><b><u>DOLORES UMBRIDGE </u></b>(She's BITCH) </center></p>
+								<p>Dolores Umbridge might be one of the least popular teachers to have ever appeared at Hogwarts and how much she truly taught to the students is questionable. Dolores came into the school in time for the O.W.L. exams, and she pushed all of the students to their maximum but did so through fear and the use of barbaric methods.</p>
+								<p>From a certain perspective, she maintained order effectively and the heroes did come out stronger after defying her, but her biggest lessons may not have been ones that she taught on purpose.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="fourth">
+				<div id="up">
+					<div id="upi">
+						<div id="up1">
+							<div class="top">
+								<h3>GET IN TOUCH</h3>
+							</div>
+							<div id="bottom1">
+								<p class="b">HOGWARTS UNIVERSITY<br> SCOTLAND<br>GREAT BRITAIN </p>
+								<p class="b">Affiliated to : <b>Department of Witchcraft and Wizardary</b></p>
+								<p class="b">Owner : <b>Ministry of Magic</b></p>
+								<p><a href="tel:+21 23657-31831"><i class="fa fa-phone"></i> +21 23657-31831</a></p>
+								<p><a href="mailto:hogwarts@gmail.com"><i class="fa fa-envelope"></i> hogwarts@gmail.com</a></p>
+							</div>	
+						</div>
+						<div id="up2">
+							<div class="top">
+								<h3>VISITORS DETAILS</h3>
+							</div>
+							<div id="bottom2">
+								<p class="a"><i class="fa fa-spinner"></i> YOUR BROWSER :</p>
+								<p class="a"><i class="fa fa-spinner"></i> YOUR IP :</p>
+							</div>	
+						</div>
+						<div id="up3">
+							<div class="top">
+								<h3>QUICKS LINKS</h3>
+							</div>
+							<div id="bottom3">
+								<ul>
+									<li><a href="index.html"><center>HOME</center></a></li>
+									<li><a href="about.html"><center>ABOUT US</center></a></li>
+									<li><a href="contact.html"><center>CONTACT US</center></a></li>
+									<li><a href="faculties.html"><center>FACULTIES</center></a></li>
+								</ul>
+							</div>	
+						</div>
+					</div>
+				</div>
+				<div id="down">
+					<div id="idown">
+						<div class="left">
+							<p align="center"><font color="#F7D358">Developed and designed by : Ujjwal Dutta, CSE 2K19-22</font></p>
+						</div>
+						<div class="left">
+							<p align="center"><font color="#F7D358">based on the Book and TV show : HARRY POTTER<br> Author : J. K Rowling</font></p>
+						</div>
+					</div>	
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
